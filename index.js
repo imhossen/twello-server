@@ -110,7 +110,7 @@ async function run() {
     // await client.close();
   }
 }
-
+// Show error
 run().catch(console.dir);
 
 app.get("/", (req, res) => {
